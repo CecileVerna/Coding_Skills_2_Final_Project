@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+	background-color: #EDF0F2;
+	font-family: 'Chivo', sans-serif;
+	color: black;
+}
+
+h1 {
+	padding-top: 125px;
+	font-family: 'Playfair Display SC', serif;
+}
+
+.navbar {
+	background-color: #6F9966;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+.links {
+	width: 80%;
+	display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.banner {
+	background-image: url('../images/banner.jpg');
+	height: 60vh;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding-top: 0;
+}
+
+ .banner h2 {
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px; 
+	font-family: Calibri; 
+}
+
+.container {
+	width: 1200px;  
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.card {
+	width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 35%)
+}
+
+.card img {
+	height: 200px;
+	border-radius: 7px;
+}
+
+.btn-green {
+	background-color: #6F9966;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 7px;
+    display: block;
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #6F9966;
+    transition: 1s;
+}
+
+.btn-green:hover {
+	background-color: white;
+	color: #6F9966;
+	transition: 1s;
+}
+
+.articles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px; 
+	font-family: Calibri;
+}
+
+.article {
+	width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 35%)
+}
+
+.article img {
+	height: 400px;
+	border-radius: 7px;
+}
+
+.social_media {
+	background-color: #EDF0F2;
+	text-align: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social_media h2{
+	color: #6F9966;
+	font-family: 'Chivo', sans-serif;
+
+}
+
+.btn-light {
+	color: #B3E6AA;
+  	font-size: 70px;
+  	transition: 1s;
+  	text-decoration: none;
+ }
+
+.btn-light:hover {
+	color: #6F9966;
+  	transition: 1s;
+}
+
+.list-inline {
+	padding: 0;
+	text-align: center;
+}
+
+.list-inline li{
+	list-style: none;
+  	display: inline;
+}
+
+.footer {
+	background-color: #6F9966;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
